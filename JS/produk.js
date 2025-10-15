@@ -84,7 +84,8 @@ const productData = {
         images: [
             "IMG/logo2.png",
             "IMG/SeconLogo.png",
-            "IMG/logo2.png"
+            "IMG/logo2.png",
+            "IMG/SeconLogo.png"
         ]
     },
     luxury: {
@@ -93,9 +94,9 @@ const productData = {
         description: "Keychain mewah dengan hiasan kristal Swarovski asli yang berkilau memukau. Setiap kristal dipilih dengan cermat dan dipasang dengan teknik presisi tinggi untuk menghasilkan pancaran cahaya yang spektakuler.",
         images: [
             "IMG/logo2.png",
+            "IMG/SeconLogo.png",
             "IMG/logo2.png",
-            "IMG/logo2.png",
-            "IMG/logo2.png"
+            "IMG/SeconLogo.png"
         ]
     },
     custom: {
@@ -110,9 +111,10 @@ const productData = {
             "Mockup 3D sebelum produksi, revisi unlimited"
         ],
         images: [
-            "https://source.unsplash.com/400x300/?custom,design",
-            "https://source.unsplash.com/400x300/?engraving,keychain",
-            "https://source.unsplash.com/400x300/?personalized,accessory"
+            "IMG/logo2.png",
+            "IMG/SeconLogo.png",
+            "IMG/logo2.png",
+            "IMG/SeconLogo.png"
         ]
     }
 };
@@ -411,4 +413,5 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
     menuObserver.observe(document.body, { attributes: true });
+
 });
