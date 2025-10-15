@@ -315,8 +315,6 @@
 
         /* Product image hover effect via CSS */
         .product-image {
-            width: 160px;
-            height: 140px;
             margin: 0 auto 20px;
             display: flex;
             justify-content: center;
@@ -983,4 +981,5 @@
             .modal-content {
                 padding: 30px 20px;
             }
+
         }
